@@ -35,7 +35,7 @@ const Home = () => {
     return (
         <div className='space-y-5 leading-9 mb-10'>
             {blogs.map((blog)=>(
-                <div key={blog.id} className='hover:bg-gray-800 hover:cursor-pointer p-5 hover:text-white'>
+                <div key={blog.id} className=' hover:cursor-pointer p-5'>
                     <h1 className='text-2xl font-bold'>{blog.titre}</h1>
                     <p>{blog.description}</p>
                     <small>{blog.date}</small>
